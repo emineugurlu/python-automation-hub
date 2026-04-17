@@ -26,13 +26,13 @@ Whether you're a beginner looking for your first project or a developer wanting 
 ## 📂 Project Categories
 
 ### 📁 File Tools
-- Bulk rename files
+- File Organizer - Automatically organize your messy folders by file type.✅
 - Organize folders automatically
 - Delete duplicate files
 - Convert file formats
 
 ### 🌐 Web Scraping
-- Extract product prices
+- Price Tracker - Extract titles and data from any website using BeautifulSoup. ✅
 - News headline scraper
 - Job listing collector
 - Data export tools
