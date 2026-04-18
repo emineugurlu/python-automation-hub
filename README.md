@@ -33,7 +33,7 @@ Whether you're a beginner looking for your first project or a developer wanting 
 
 ### 🌐 Web Scraping
 - [Price Tracker](./web-scraping/price-tracker) - Extract titles and data from any website using BeautifulSoup. ✅
-- News headline scraper
+- News headline scrapers
 - Job listing collector
 - Data export tools
 
