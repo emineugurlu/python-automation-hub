@@ -15,57 +15,40 @@
 
 ## ✨ About The Project
 
-**Python Automation Hub** is an open-source project created to collect useful Python automation tools in one place.
-
-From file management to web scraping, from social media helpers to productivity scripts — this repository helps people save time and learn practical Python through real examples.
-
-Whether you're a beginner looking for your first project or a developer wanting to contribute, you're welcome here.
+**Python Automation Hub** is an open-source project created to collect useful Python automation tools in one place. From file management to web scraping, this repository helps people save time and learn practical Python.
 
 ---
 
-## 📂 Project Categories
+## 📂 Project Structure & Tools
 
-### 📁 File Tools
-- [File Organizer](./file-tools/file-organizer) - Automatically organize your messy folders by file type. ✅
-- Organize folders automatically
-- Delete duplicate files
-- Convert file formats
-
-### 🌐 Web Scraping
-- [Price Tracker](./web-scraping/price-tracker) - Extract titles and data from any website using BeautifulSoup. ✅
-- News headline scrapers
-- Job listing collector
-- Data export tools
-
-### 📱 Social Media Tools
-- [Hashtag Generator](./social-media/hashtag-generator) - Generate trending hashtags for your posts automatically. ✅
-- Caption helper
-- Engagement analytics
-- Content planner tools
-
-### ⚡ Productivity
-- To-do automation
-- Daily report generator
-- Reminder tools
-- Time saver utilities
-
-### 📊 Data Tools
-- CSV cleaner
-- Excel formatter
-- Data merger
-- Simple visual reports
-
-### 🐍 Beginner Projects
-- Easy scripts to learn Python
-- Well-commented examples
-- Real-life mini projects
+| Category | Tool Name | Description | Status |
+| :--- | :--- | :--- | :--- |
+| 📁 **File Tools** | [File Organizer](./file-tools/file-organizer) | Automatically organize messy folders by file type. | ✅ Ready |
+| | Duplicate Remover | Finds and deletes identical files. | ⏳ Coming Soon |
+| 🌐 **Web Scraping** | [Price Tracker](./web-scraping/price-tracker) | Tracks product prices using BeautifulSoup. | ✅ Ready |
+| | Job Collector | Scrapes job listings from various sites. | 🛠 In Progress |
+| 📱 **Social Media** | [Hashtag Generator](./social-media/hashtag-generator) | Generates trending hashtags for posts. | ✅ Ready |
+| | [Image Downloader](./social-media/insta-downloader) | Downloads images from given URLs. | ✅ Ready |
+| ⚡ **Productivity** | Daily Report Gen | Generates a summary of your daily tasks. | 🛠 In Progress |
+| 📊 **Data Tools** | [CSV to JSON](./data-tools/csv-converter) | Converts data formats for web apps. | ✅ Ready |
+| 🐍 **Beginner** | [Password Gen](./beginner-projects/password-gen) | Generates secure, random passwords. | ✅ Ready |
 
 ---
 
 ## 🚀 Getting Started
 
-### Clone the repository
-
+### 1. Clone the repository
 ```bash
-git clone https://github.com/emineugurlu/python-automation-hub.git
-cd python-automation-hub
+git clone [https://github.com/emineugurlu/python-automation-hub.git](https://github.com/emineugurlu/python-automation-hub.git)
+cd python-automation-hub 
+
+### 2. Run a script
+Go to the specific tool folder and install requirements:
+cd file-tools/file-organizer
+pip install -r requirements.txt
+python organizer.py
+
+🤝 Contributing
+We love your contributions! Whether it's a bug fix or a new script idea, please check our CONTRIBUTING.md to get started.
+
+Developed with ✨ by Emine
