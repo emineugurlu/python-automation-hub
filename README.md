@@ -1,3 +1,7 @@
+<p align="center">
+<img width="1712" height="864" alt="python" src="https://github.com/user-attachments/assets/50b4ce1a-b5a8-4fb9-8df2-4f979253c3bf"  alt="Python Automation Hub Banner" width="100%"/>
+</p>
+
 # 🚀 Python Automation Hub
 
 <p align="center">
@@ -31,8 +35,6 @@
 | 📊 **Data Tools** | [JSON Cleaner](./data-tools/json-cleaner) | Removes null and empty values from JSON files. | ✅ Ready |
 | | [CSV to JSON](./data-tools/csv-converter) | Converts data formats for web apps. | ✅ Ready |
 | 🐍 **Beginner** | [Password Gen](./beginner-projects/password-gen) | Generates secure, random passwords. | ✅ Ready |
----
-
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
