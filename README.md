@@ -49,9 +49,20 @@ Go to the specific tool folder and install requirements:
 cd productivity/daily-task-pdf
 pip install -r requirements.txt
 python task_logger.py
-``` 
-
+```
 🤝 Contributing
-We love your contributions! Whether it's a bug fix or a new script idea, please check our CONTRIBUTING.md to get started.
+We love your contributions! To keep the hub organized, please follow these steps:
+
+Fork the project.
+
+Create your Feature Branch (git checkout -b feature/AmazingFeature).
+
+Update the README.md: If you add a new tool or update an existing one, you must update the table and description in this README.
+
+Commit your changes (git commit -m 'Add some AmazingFeature').
+
+Push to the Branch (git push origin feature/AmazingFeature).
+
+Open a Pull Request.
 
 Developed with ✨ by Emine
