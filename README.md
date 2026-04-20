@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="<img width="1712" height="864" alt="python" src="https://github.com/user-attachments/assets/a7618ba0-ce94-4e29-bdb4-37016892641c" />" alt="Python Automation Hub Banner" width="100%">
+</p>
+
 # 🚀 Python Automation Hub
 
 <p align="center">
