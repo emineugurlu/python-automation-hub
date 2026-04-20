@@ -15,10 +15,10 @@ def main():
     
     print(f"Original: {dirty_json}")
     
-    # Burada sonucu değişkene atıyoruz
+    
     cleaned_data = clean_empty_values(data)
     
-    # BURASI DÜZELDİ: Fonksiyon ismini değil, 'cleaned_data' değişkenini yazdırıyoruz
+    
     print("Cleaned JSON:", json.dumps(cleaned_data, indent=4))
 
 # BURASI DÜZELDİ: En sola çekildi, fonksiyonun dışında olmalı

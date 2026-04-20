@@ -24,13 +24,12 @@
 | Category | Tool Name | Description | Status |
 | :--- | :--- | :--- | :--- |
 | 📁 **File Tools** | [File Organizer](./file-tools/file-organizer) | Automatically organize messy folders by file type. | ✅ Ready |
-| | Duplicate Remover | Finds and deletes identical files. | ⏳ Coming Soon |
 | 🌐 **Web Scraping** | [Price Tracker](./web-scraping/price-tracker) | Tracks product prices using BeautifulSoup. | ✅ Ready |
-| | Job Collector | Scrapes job listings from various sites. | 🛠 In Progress |
 | 📱 **Social Media** | [Hashtag Generator](./social-media/hashtag-generator) | Generates trending hashtags for posts. | ✅ Ready |
 | | [Image Downloader](./social-media/insta-downloader) | Downloads images from given URLs. | ✅ Ready |
-| ⚡ **Productivity** | Daily Report Gen | Generates a summary of your daily tasks. | 🛠 In Progress |
-| 📊 **Data Tools** | [CSV to JSON](./data-tools/csv-converter) | Converts data formats for web apps. | ✅ Ready |
+| ⚡ **Productivity** | [Daily Task PDF](./productivity/daily-task-pdf) | Generates a professional PDF report of your tasks. | ✅ Ready |
+| 📊 **Data Tools** | [JSON Cleaner](./data-tools/json-cleaner) | Removes null and empty values from JSON files. | ✅ Ready |
+| | [CSV to JSON](./data-tools/csv-converter) | Converts data formats for web apps. | ✅ Ready |
 | 🐍 **Beginner** | [Password Gen](./beginner-projects/password-gen) | Generates secure, random passwords. | ✅ Ready |
 
 ---
@@ -40,15 +39,15 @@
 ### 1. Clone the repository
 ```bash
 git clone [https://github.com/emineugurlu/python-automation-hub.git](https://github.com/emineugurlu/python-automation-hub.git)
-cd python-automation-hub 
+cd python-automation-hub
 ```
 
 ### 2. Run a script
 ```bash
 Go to the specific tool folder and install requirements:
-cd file-tools/file-organizer
+cd productivity/daily-task-pdf
 pip install -r requirements.txt
-python organizer.py
+python task_logger.py
 ``` 
 
 🤝 Contributing
