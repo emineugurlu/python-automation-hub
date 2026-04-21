@@ -1,17 +1,22 @@
 import yt_dlp
 import os
+from datetime import datetime
+
+def log_download(url, status):
+    # Bu dosya değiştikçe Git 'update' olduğunu anlayacak
+    with open("download_history.txt", "a", encoding="utf-8") as f:
+        f.write(f"{datetime.now()} - {status}: {url}\n")
 
 def download_video(url, download_path='downloads', only_audio=False):
-    """
-    Downloads a video or audio from YouTube using yt-dlp.
-    """
     if not os.path.exists(download_path):
         os.makedirs(download_path)
 
     ydl_opts = {
         'outtmpl': f'{download_path}/%(title)s.%(ext)s',
+        # Eğer ffmpeg exe'lerini klasöre attıysan alt satırı aktif et:
+        # 'ffmpeg_location': '.', 
     }
-    
+
     if only_audio:
         ydl_opts.update({
             'format': 'm4a/bestaudio/best',
@@ -20,22 +25,17 @@ def download_video(url, download_path='downloads', only_audio=False):
                 'preferredcodec': 'm4a',
             }],
         })
-    else:
-        ydl_opts.update({
-            'format': 'bestvideo+bestaudio/best',
-        })
 
     try:
         with yt_dlp.YoutubeDL(ydl_opts) as ydl:
-            print(f"🚀 Starting download: {url}")
             ydl.download([url])
-            print("✅ Download completed successfully!")
+            log_download(url, "SUCCESS")
+            print("✅ Bitti babuş, dosya klasörde!")
     except Exception as e:
-        print(f"❌ An error occurred: {e}")
+        log_download(url, f"ERROR: {str(e)}")
+        print(f"❌ Hata: {e}")
 
 if __name__ == "__main__":
-    video_url = input("Enter the YouTube URL: ")
-    choice = input("Download as (1) Video or (2) Audio only? ")
-    
-    is_audio = True if choice == '2' else False
-    download_video(video_url, only_audio=is_audio)
+    url = input("Link patlat: ")
+    choice = input("1-Video / 2-Ses: ")
+    download_video(url, only_audio=(choice == '2'))
