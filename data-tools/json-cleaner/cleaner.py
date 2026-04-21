@@ -21,6 +21,6 @@ def main():
     
     print("Cleaned JSON:", json.dumps(cleaned_data, indent=4))
 
-# BURASI DÜZELDİ: En sola çekildi, fonksiyonun dışında olmalı
+
 if __name__ == "__main__":
     main()
