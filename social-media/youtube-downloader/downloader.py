@@ -11,7 +11,7 @@ def download_video(url, download_path='downloads', only_audio=False):
     ydl_opts = {
         'outtmpl': f'{download_path}/%(title)s.%(ext)s',
     }
-
+    
     if only_audio:
         ydl_opts.update({
             'format': 'm4a/bestaudio/best',
