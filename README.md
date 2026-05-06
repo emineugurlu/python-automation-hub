@@ -44,9 +44,10 @@ This hub showcases professional-grade Python scripting and automation practices:
 ## 🛠️ Installation & Execution
 
 1. **Clone the Hub:**
-   ```bash
+```bash
    git clone [https://github.com/emineugurlu/python-automation-hub.git](https://github.com/emineugurlu/python-automation-hub.git)
    cd python-automation-hub
+````
 2.**Execute a Module:**
 Each tool resides in its own micro-environment. To launch the Daily Task PDF engine:
 ````bash
