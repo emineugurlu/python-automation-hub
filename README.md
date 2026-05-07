@@ -46,14 +46,14 @@ This hub showcases professional-grade Python scripting and automation practices:
 1. **Clone the Hub:**
 ```bash
   git clone https://github.com/emineugurlu/python-automation-hub.git
-   cd python-automation-hub
+  cd python-automation-hub
 ````
 2. **Execute a Module:**
 Each tool resides in its own micro-environment. To launch the Daily Task PDF engine:
 ````bash
-   cd productivity/daily-task-pdf
-   pip install -r requirements.txt
-   python task_logger.py
+  cd productivity/daily-task-pdf
+  pip install -r requirements.txt
+  python task_logger.py
 ````
 
 Developed by Emine Uğurlu - Computer Engineer
